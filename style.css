@@ -1,0 +1,97 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  border: none;
+  padding: 0;
+  font-family: font-family_1;
+}
+header{
+    background-color: rgb(31 31 31);
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    height: 150px;
+    justify-content: center;
+    background-size:contain ;
+    /* position: sticky;
+    top: 0; */
+}
+nav{
+    background-color: rgb(246 246 246);
+    display: flex;
+   align-items: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-family: sans-serif;
+    height: 35px;
+    /* position: sticky;
+    top: 0; */
+    }
+nav a{
+    margin-left: 60px;
+    color: #000;
+    text-decoration: none;
+}
+main{
+    display: flex; 
+}
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/007/622/546/non_2x/banner-template-design-abstract-black-and-white-geometric-squares-overlapping-layer-on-clean-background-vector.jpg");
+}
+figure{
+    width: 600px; 
+}
+aside{
+    width: 250px;
+    background-color: rgb(31 31 31);
+    font-family: "Mukta", sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+padding-left: 55px;
+    position: sticky;
+    top: 0;
+}
+aside a{
+    margin-top: 60px;
+    color: white;
+    text-decoration: none;
+
+    
+}
+aside button{
+    margin-top: 120px;
+    width: 130px;
+    height: 50px;
+    border-radius: 12px;
+    font-size: 20px;
+}
+article{
+    width: 1500px;
+}
+article H2{
+    
+    font-size: 55px; 
+    color: rgb(0, 0, 0); 
+    text-align: left; 
+    font-family: "Micro 5 Charted", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+     padding-left: 91PX;
+    /* padding-top: 2px;  */
+}
+footer{
+    display: flex; 
+    align-items: center;
+    height:60px;
+    justify-content: center;
+    background-color: rgb(221, 221, 221);
+    
+}
+   
+
+
